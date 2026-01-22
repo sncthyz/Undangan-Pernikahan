@@ -31,12 +31,7 @@
   font-style: normal;
 }
 
-#desktop-warning {
-  color:red;
-  font-weight: 600;
-  font-size: 30px;
 
-}
 
     </style>
 </head>
@@ -100,7 +95,7 @@
     </div>
     </div>
 
-<div class="min-h-screen montserrat text-center bg-cover bg-center p-20 bg-no-repeat" style="background-image: url('1.png');">
+<div class="min-h-screen montserrat text-center bg-cover bg-center p-10 bg-no-repeat" style="background-image: url('1.png');">
 
 <div class="text-center shadow-xs p-5 mt-10 rounded-2xl bg-white shadow-black">
     <div class="p-2">
@@ -123,7 +118,6 @@
             Bapak Rusdi & Ibu Olivia</h1>
         </ul>
     </div>
-        <div id="desktop-warning">Buka di Android</div>
 
     </div>
 
@@ -131,7 +125,6 @@
       const isAndroid = /Android/i.test(navigator.userAgent);
 
       if(!isAndroid) {
-        window.location.href="error.html";
 
       }
     </script>
